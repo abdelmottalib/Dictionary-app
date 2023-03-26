@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@700&display=swap');
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	font-family: noto serif;
+	flex-direction: column;
+}
+.main-div {
+	margin-top: 35px;
+	/* border: 1px solid black; */
+	width: 60%;
+}
+.main-div input {
+	width: 100%;
+	font-family: inherit;
+	height: 45px;
+	border-style: none;
+	background-color: #F5F5F5;
+	border-radius: 7px;
+	outline: none;
+	font-size: 20px;
+	padding-left: 15px;
+}
+.search-bar-div {
+	position: relative;
+}
+.search-bar-div i {
+	position: absolute;
+	top: 14px;
+	right: 12px;
+}
+h2 {
+	font-size: 65px;
+	margin-top: 50px;
+	margin-bottom: 7px;
+}
+.pronounce {
+	color: #A551DF;
+	font-size: 25px;
+}
+.word-div {
+	position: relative;
+}
+.play-button {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	color: #A551DF;
+	/* border: 1px solid black; */
+	width: 65px;
+	height: 65px;
+	display: none;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	background-color: #E7D0FA;
+	font-size: 25px;
+}
+.error {
+	text-align: center;
+	color: #A551DF;
+}
+.fa-play {
+	transform: translateX(10%);
+}
+#line {
+	width: 95%;
+	height: 0;
+}
+hr {
+	border: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid rgb(194, 187, 187);
+	height: 1px;
+  }
+.word-and-line {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	font-family: Edu NSW ACT Foundation;
+	font-size: 25px;
+}
+.list-word {
+	margin-top: 40px;
+	color: grey;
+}
+li {
+	list-style-type: none;
+}
+li::before {
+	content: "•";
+	color: #A551DF;
+	margin-right: 0.5em;
+  }
+ul {
+	line-height: 2;
+}
+#meaning {
+	color: grey;
+}
